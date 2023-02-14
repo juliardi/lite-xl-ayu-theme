@@ -1,4 +1,4 @@
-# Lite XL Ayu Theme
+![ayu](./images/ayu.jpg)
 
 A port of the beautiful [dempfi's Ayu Theme](https://github.com/dempfi/ayu) for Lite XL.
 
