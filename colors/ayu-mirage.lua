@@ -3,10 +3,10 @@ local common = require "core.common"
 
 style.background = { common.color "#242936" }  -- Docview
 style.background2 = { common.color "#242936" } -- Treeview
-style.background3 = { common.color "#212121" } -- Command view
-style.text = { common.color "#cccac2" }
+style.background3 = { common.color "#212633" } -- Command view
+style.text = { common.color "#cccac2" } -- default text color
 style.caret = { common.color "#ffcc66" }
-style.accent = { common.color "#cccadf" } -- Treeview hovered item
+style.accent = { common.color "#bcbacf" } -- Treeview hovered item
 -- style.dim - text color for nonactive tabs, tabs divider, prefix in log and
 -- search result, hotkeys for context menu and command view
 style.dim = { common.color "#5C6370" }
@@ -14,11 +14,11 @@ style.divider = { common.color "#242936" } -- Line between nodes
 style.selection = { common.color "#48484f" }
 style.line_number = { common.color "#525259" }
 style.line_number2 = { common.color "#83838f" } -- With cursor
-style.line_highlight = { common.color "#343438" }
-style.scrollbar = { common.color "#343946" }
+style.line_highlight = { common.color "#343444" }
+style.scrollbar = { common.color "#444956" }
 style.scrollbar2 = { common.color "#545976" } -- Hovered
 style.scrollbar_track = { common.color "#313643" }
-style.nagbar = { common.color "#FF0000" }
+style.nagbar = { common.color "#DD0033" }
 style.nagbar_text = { common.color "#FFFFFF" }
 style.nagbar_dim = { common.color "rgba(0, 0, 0, 0.45)" }
 style.drag_overlay = { common.color "rgba(255,255,255,0.1)" }
